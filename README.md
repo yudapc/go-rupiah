@@ -1,4 +1,5 @@
 # go-rupiah
+
 This is helper for Golang format rupiah
 
 Import:
@@ -22,4 +23,22 @@ Example from rupiah to amount int64:
   rupiah := "Rp 1.008.050.000"
   getAmount := rupiah.GetAmount(formatRupiah)
   fmt.Println(getAmount) // Output 1008050000
+```
+
+Run Test:
+
+```
+go test
+```
+
+Check coverage:
+
+```
+go test -coverprofile=coverage.out
+```
+
+Preview coverage test:
+
+```
+go tool cover -html=coverage.out
 ```
