@@ -1,5 +1,7 @@
 # go-rupiah
 
+[![Build Status](https://travis-ci.com/yudapc/go-rupiah.svg?branch=master)](https://travis-ci.com/yudapc/go-rupiah)
+
 This is helper for Golang format rupiah
 
 Import:
